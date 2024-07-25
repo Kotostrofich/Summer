@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('ground.png');
+  }
+  .tok{
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: left;
+  }
+  .inf {
+    background-color: #fceabd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .inf h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+
+  .inf p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  .inf button{
+    background-image: url('knock.png');
+    background-size: cover;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
